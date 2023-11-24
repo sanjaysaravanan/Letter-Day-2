@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display One Letter at a Time</title>
+  <style>
+    #output {
+      font-size: 24px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+<div id="output"></div>
+
+<script>
+  // Function to display text one letter at a time
+  function displayTextOneLetterAtATime(text, outputElement) {
+    let index = 0;
+    function displayNextLetter() {
+      if (index < text.length) {
+        outputElement.textContent += text.charAt(index);
+        index++;
+        setTimeout(displayNextLetter, 100); // Adjust the delay (in milliseconds) between letters
+      }
+    }
+    displayNextLetter();
+  }
+
+  // Call the function with your desired text and output element
+  const textToDisplay = "Hello, World!";
+  const outputElement = document.getElementById("output");
+  displayTextOneLetterAtATime(textToDisplay, outputElement);
+</script>
+
+</body>
+</html>
