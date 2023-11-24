@@ -16,7 +16,7 @@ const array = [
     id: "line-1",
   },
   {
-    text: "Ask the things around Me, they would say how confused/worried/scared/nervous I was when You didn't speak well with Me a day.",
+    text: "Ask the things around Me, they would say how confused/worried/nervous I was when You didn't speak well with Me a day.",
     id: "line-2",
   },
   {
