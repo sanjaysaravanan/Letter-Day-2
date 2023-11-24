@@ -48,7 +48,7 @@ const array = [
     id: "line-9",
   },
   {
-    text: "You know what we were fighting with our alter-ego( Not between Us ) to get back to Mine/You/Me/Us",
+    text: "You know what, we were fighting with our alter-ego( Not between Us ) to get back to Mine/You/Me/Us",
     id: "line-10",
   },
   {
